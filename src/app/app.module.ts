@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+//Rutas
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+// import { appRouting } from './app.routes';
+//Servicios/Providers
 
+//Componentes
+import { AppComponent } from './app.component';
+//Modulos
 import { LayoutModule } from './Layout/Layout.module';
 
 @NgModule({
@@ -13,7 +18,7 @@ import { LayoutModule } from './Layout/Layout.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LayoutModule
+    LayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
